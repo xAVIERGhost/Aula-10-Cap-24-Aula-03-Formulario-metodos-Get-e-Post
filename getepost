@@ -1,0 +1,10 @@
+- `<form>`: cria o formulário.
+- `action`: indica para onde os dados serão enviados. `#` é apenas um marcador.
+- `method="get"`: envia os dados na URL, visíveis após o `?`. É útil para pesquisas e filtros.
+- `method="post"`: envia os dados no corpo da requisição, sem exibi-los na URL. É comum para cadastros e envios de formulários.
+- `<label>`: descreve o campo e o associa ao campo correspondente pelo `for`.
+- `<input>`: cria um campo de entrada. `type="text"` aceita texto; `type="email"` verifica se o formato parece um e-mail.
+- `id`: identifica o campo no HTML e permite associá-lo ao `<label>`.
+- `name`: define o nome usado para enviar o valor ao servidor.
+- `required`: exige que o campo seja preenchido antes do envio.
+- `<button type="submit">`: cria o botão que envia o formulário.
